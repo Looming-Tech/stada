@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+@font-face {
+  font-family: 'LLBrown';
+  src: url('./../public/static/fonts/Brown-Regular.eot'),
+    url('./../public/static/fonts/Brown-Regular.ttf') format('truetype'),
+    url('./../public/static/fonts/Brown-Regular.woff') format('woff'),
+    url('./../public/static/fonts/Brown-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LLBrown_Bold';
+  src: url('./../public/static/fonts/Brown-Bold.eot'), url('./../public/static/fonts/Brown-Bold.ttf') format('truetype'),
+    url('./../public/static/fonts/Brown-Bold.woff') format('woff'),
+    url('./../public/static/fonts/Brown-Bold.woff2') format('woff2');
+}
+
+@keyframes logoAnimation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes menuTextAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: auto;
+  }
+}
